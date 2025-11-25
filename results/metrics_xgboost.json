@@ -1,0 +1,64 @@
+{
+  "model": "xgboost",
+  "roc_auc": 0.8694628612910393,
+  "average_precision": 0.5247600488192864,
+  "report_threshold_0_5": {
+    "0.0": {
+      "precision": 0.996999699969997,
+      "recall": 0.9975983188231762,
+      "f1-score": 0.9972989195678271,
+      "support": 9993.0
+    },
+    "1.0": {
+      "precision": 0.5471698113207547,
+      "recall": 0.4915254237288136,
+      "f1-score": 0.5178571428571429,
+      "support": 59.0
+    },
+    "accuracy": 0.9946279347393554,
+    "macro avg": {
+      "precision": 0.7720847556453758,
+      "recall": 0.7445618712759949,
+      "f1-score": 0.757578031212485,
+      "support": 10052.0
+    },
+    "weighted avg": {
+      "precision": 0.994359433015132,
+      "recall": 0.9946279347393554,
+      "f1-score": 0.9944848462664014,
+      "support": 10052.0
+    }
+  },
+  "threshold_results": [
+    {
+      "threshold": 0.5,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    },
+    {
+      "threshold": 0.2,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    },
+    {
+      "threshold": 0.1,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    },
+    {
+      "threshold": 0.05,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    },
+    {
+      "threshold": 0.02,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    },
+    {
+      "threshold": 0.01,
+      "recall_failure": 0.0,
+      "precision_failure": 0.0
+    }
+  ]
+}
